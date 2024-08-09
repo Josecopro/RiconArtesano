@@ -150,7 +150,6 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }
-
 /* Navigation Styles */
 nav {
     background-color: var(--AzulPastel);
@@ -179,8 +178,25 @@ nav {
     text-decoration: none;
     color: var(--Marron);
     transition: color 0.3s ease;
+    font-weight: bolder;
 }
 
 .NavList__Items a:hover {
     color: var(--RojoTerracota);
+}
+/* Footer Styles */
+footer {
+    background-color: var(--AzulPastel);
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.Footer__Text {
+    color: var(--Marron);
+    font-size: 1.2rem;
+}
+.Footer__contact{
+    color: var(--Marron);
+    font-size: 1.2rem;
 }
