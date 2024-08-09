@@ -151,10 +151,6 @@ body{
     gap: 1rem;
 }
 
-.Card__Text {
-    font-size: 1em;
-    color: var(--Marron);
-}
 /* Navigation Styles */
 nav {
     background-color: var(--AzulPastel);
